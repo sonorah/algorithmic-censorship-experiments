@@ -21,9 +21,8 @@ This repository contains a Python script for analyzing social media content mode
 
 ## Contents
 
-- `analysis_script.py`: The main Python script for data cleaning and analysis.
-- `Twitter_Suspensions.csv` (not included): Placeholder for the dataset used in the analysis.
-- `requirements.txt`: List of dependencies for running the script.
+- `twitter_high_profile_suspensions.ipynb`: The main Python script for data cleaning and analysis.
+- `Twitter_Suspensions.csv` (included): Dataset used in the analysis; data originates from [here](https://en.wikipedia.org/wiki/Twitter_suspensions).
 
 ## Requirements
 
@@ -35,10 +34,3 @@ This repository contains a Python script for analyzing social media content mode
   - `Reason for suspension`: Description of the suspension reason.
   - `Description`: Account description.
   - `Individual/account`: Account name or identifier.
-
-## Getting Started
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/high-profile-cases.git
-   cd high-profile-cases
